@@ -143,12 +143,14 @@ function LoginPage() {
               </Link>
             </div>
 
-            <button
-              type="submit"
-              className="w-full py-3 px-4 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-            >
-              Sign In
-            </button>
+            <a
+  href="https://subscription-manager-v2.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full py-3 px-4 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-center block"
+>
+  Sign In
+</a>
 
             <div className="relative">
               <div className="absolute inset-0 flex items-center">
